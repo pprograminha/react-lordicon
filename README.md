@@ -1,13 +1,18 @@
 # react-lordicon
 
-> library to react
+> library to React
 
-[![NPM](https://img.shields.io/npm/v/react-lordicon.svg)](https://www.npmjs.com/package/react-lordicon) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-lordicon.svg)](https://www.npmjs.com/package/react-lordicon)
 
 ## Install
 
 ```bash
 npm install --save react-lordicon
+```
+or
+
+```bash
+yarn add react-lordicon
 ```
 
 ## Usage
@@ -15,14 +20,22 @@ npm install --save react-lordicon
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-lordicon'
-import 'react-lordicon/dist/index.css'
+import Lordicon from 'react-lordicon'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App: React.FC = () => {
+  return <Lordicon  
+      colors={{
+        primary: '#fff',
+        secondary: '#222',
+      }}
+      icon="addCard"
+      size={100}
+      delay={1000}
+      trigger='loop'  
+  />
 }
+
+
 ```
 
 ## License
