@@ -1,3 +1,4 @@
+import 'https://cdn.lordicon.com/lusqsztk.js'
 import React from 'react'
 
 type Icons = 'helpCenter' | 'info' | 'notificationBell' | 'warning' | 'chat' | 'clock' | 'autorenew' | 'article' | 'history' | 'trash' | 'play' | 'addCard' | 'thumbsUpDown' | 'cross' | 'spaFlower' | 'snake' | 'ruins' | 'privacyPolicy' | 'edit' | 'bin' | 'flatArrow'
