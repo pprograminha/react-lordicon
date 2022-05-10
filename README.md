@@ -1,6 +1,6 @@
 # react-lordicon
 
-> library to React
+> Lordicon library animated icons to React
 
 [![NPM](https://img.shields.io/npm/v/react-lordicon.svg)](https://www.npmjs.com/package/react-lordicon)
 
