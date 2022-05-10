@@ -1,13 +1,19 @@
 {
   "name": "react-lordicon",
-  "version": "1.0.0",
-  "description": "library to react",
+  "version": "1.0.1",
+  "description": "Lordicon library animated icons to React",
   "author": "pprograminha",
   "license": "MIT",
   "repository": "pprograminha/react-lordicon",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "keywords": [
+    "react",
+    "lordicon",
+    "animations",
+    "icons"
+  ],
   "engines": {
     "node": ">=10"
   },
